@@ -30,6 +30,6 @@ jobs:
         username: ${{ secrets.UBUNTU_VPS_USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
         script: |
-          cd /var/www/html/nodejs_project/
+          cd /var/www/html/bajivai-backend/
           git pull origin main
           pm2 restart bajivaibackend

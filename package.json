@@ -1,5 +1,5 @@
 {
-  "name": "node1",
+  "name": "nodejsproject",
   "version": "1.0.0",
   "description": "Simple Node.js app",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Daniel Saputra",
+  "author": "Jawed Siddiqui, +919142627909",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.3"
